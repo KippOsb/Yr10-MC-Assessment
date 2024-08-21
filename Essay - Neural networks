@@ -1,0 +1,41 @@
+Understanding Neural Networks  
+
+Neural networks are a machine learning class that takes some inspiration from the human brain in its structure and functioning. They recognize patterns and then make decisions accordingly. A neural network contains layers of interlinked nodes, or "neurons," which process information and subsequently change the weights of their connections based on the information these neurons have been trained on. In recent decades, neural networks have been the basis for discoveries in the field of artificial intelligence, like the invention of image recognition, the handling of natural language and autonomous systems. 
+
+  
+
+Neural Network Structure and Components 
+
+Essentially, a neural network is composed of layers of neurons. Three major types of layers contain neurons: the input layer, hidden layers and the output layer. 
+
+The input layer receives the raw data and forwards it to the hidden layers. All the substantial processing is done in these hidden layers: the neurons receive input from the previous layer, apply an activation function—which is a kind of elemental mathematical operation—to that input, and then forward on the result to the next layer. Finally, the output layer makes a final prediction or classification for the network.  
+
+The weights represent the connections between the individual neurons. They are the major components in a neural network and define the strength of a connection. During training, they are variably manipulated to minimize the difference between the data the network predicted and the real data. It is also equipped with bias terms so that the model can shift the activation function along the required axis, adding flexibility. 
+
+  
+
+It is the fact that various data types are suited to specific neural network architectures. Convolutional Neural Networks are designed to process grid-like data, such as images, by applying certain convolutional filters to detect edges and textures. Recurrent Neural Networks, on the other hand, are appropriate for sequential data, such as time series and natural language, where the state of one observation depends on the state of the previous one. 
+
+  
+
+Applications of Neural Networks  
+
+Neural networks have applications in almost all domains. In computer vision, there are very broad usages of CNNs for image classification, object detection, and face recognition. For example, some of them are based on the network learning the patterns from visual data and using them to perform tasks such as classifying an object in a photo or recognizing a person by their face. 
+
+  
+
+Across natural language processing, neural networks are applied in machine translation, sentiment analysis, and chatbots. More particularly, RNNs and their extensions, such as LSTMs, are the best due to their ability to understand and generate human languages, given that they process sequences of words and capture the context of a sentence. 
+
+  
+
+Neural networks are also used in healthcare for diagnosing diseases through medical imaging, prognosis of patient conditions, and planning for patient treatments. In finance, they are used for predicting the stock market, fraud detection, and risk management. Neural networks are very flexible and adaptive; hence, their applicability is vast for any complex problem.  
+
+Training Process and Techniques 
+
+Training a neural network means tuning its weights and bias terms for minimizing an error function between the predictions made by the neural network and actual outcomes. For this, most often backpropagation is used, along with an optimization algorithm, such as gradient descent. 
+
+With time and more data provided to it, the network improves the correct predictions from the data by updating weights. The process of training a neural network is not that easy, though. The common problem with them is overfitting. It means that instead of generalizing on new, unseen data, the network started memorizing the training data. Some approaches include regularization, dropout, and early stopping to avoid overfitting and improve the test-data performance. 
+
+ 
+
+ 
