@@ -3,26 +3,26 @@ GitHub repository for 5 marks
 Machine Learning Algorithms and Concepts
 This project showcases basic implementations of machine learning algorithms, including Linear Regression and K-Nearest Neighbors (KNN), along with an essay exploring the concepts and applications of Neural Networks.
 
-## Table of Contents
+# Table of Contents
+ Algorithms Implemented:
+   Linear Regression
+   K-Nearest Neighbors (KNN)
+ Neural Networks Essay
+
+
 # Algorithms Implemented
-# Linear Regression
-# K-Nearest Neighbors (KNN)
-# Neural Networks Essay
-
-
-## Algorithms Implemented
 # Linear Regression
 Linear Regression is one of the most basic and widely used algorithms in machine learning. It is a linear approach to modeling the relationship between a dependent variable and one or more independent variables. This section contains the implementation of both simple and multiple linear regression models.
 
-# Key features:
+## Key features:
 
 Implementation of the linear regression model from scratch.
 Visualization of the data and the fitted model.
 Evaluation metrics such as Mean Squared Error (MSE) and R-squared.
-K-Nearest Neighbors (KNN)
+# K-Nearest Neighbors (KNN)
 K-Nearest Neighbors (KNN) is a simple, instance-based learning algorithm used for both classification and regression tasks. This section demonstrates how KNN can be applied to classify data points based on their proximity to other labeled points.
 
-# Key features:
+## Key features:
 
 Implementation of the KNN algorithm for classification.
 Discussion on choosing the optimal value of K.
